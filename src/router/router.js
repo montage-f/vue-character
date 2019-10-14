@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import Home from '../views/Home.vue';
 import Freeze from '@/views/Freeze';
 import Observable from '@/views/Observable';
+import PropsListeners from '@/views/PropsListeners';
 
 Vue.use(Router);
 
@@ -18,8 +19,12 @@ export default new Router({
             component: Freeze,
         }, {
             path: '/observable',
-            name: 'Observable',
+            name: 'observable',
             component: Observable,
+        }, {
+            path: '/props-listeners',
+            name: '/props-listeners',
+            component: PropsListeners,
         },
         {
             path: '/about',

@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Home from '../views/Home.vue';
 import Freeze from '@/views/Freeze';
+import Observable from '@/views/Observable';
 
 Vue.use(Router);
 
@@ -15,6 +16,10 @@ export default new Router({
             path: '/freeze',
             name: 'freeze',
             component: Freeze,
+        }, {
+            path: '/observable',
+            name: 'Observable',
+            component: Observable,
         },
         {
             path: '/about',

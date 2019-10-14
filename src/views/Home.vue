@@ -10,6 +10,9 @@
             <p>
                 <router-link to="/props-listeners">使用$props和$listeners传递参数和事件</router-link>
             </p>
+            <p>
+                <router-link to="/functional">函数式组件</router-link>
+            </p>
         </div>
     </div>
 </template>

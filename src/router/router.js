@@ -4,6 +4,7 @@ import Home from '../views/Home.vue';
 import Freeze from '@/views/Freeze';
 import Observable from '@/views/Observable';
 import PropsListeners from '@/views/PropsListeners';
+import Functional from '@/views/Functional';
 
 Vue.use(Router);
 
@@ -25,8 +26,11 @@ export default new Router({
             path: '/props-listeners',
             name: '/props-listeners',
             component: PropsListeners,
-        },
-        {
+        }, {
+            path: '/Functional',
+            name: 'functional',
+            component: Functional,
+        }, {
             path: '/about',
             name: 'about',
             // route level code-splitting

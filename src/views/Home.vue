@@ -1,18 +1,27 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div class="home">
+        <div class="change-view">
+            <router-link to="/freeze">使用Object.freeze优化vue组件渲染性能</router-link>
+        </div>
+    </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
-export default {
-  name: 'home',
-  components: {
-    HelloWorld
-  }
-}
+    export default {
+        name: 'home',
+        components: {},
+        data() {
+            return {
+            };
+        },
+        created() {
+        },
+        methods: {},
+    };
 </script>
+<style scoped lang="less">
+    .home {
+
+    }
+</style>

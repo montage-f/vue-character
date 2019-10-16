@@ -13,6 +13,9 @@
             <p>
                 <router-link to="/functional">函数式组件</router-link>
             </p>
+            <p>
+                <router-link to="/VSlot">v-slot使用</router-link>
+            </p>
         </div>
     </div>
 </template>

@@ -5,6 +5,7 @@ import Freeze from '@/views/Freeze';
 import Observable from '@/views/Observable';
 import PropsListeners from '@/views/PropsListeners';
 import Functional from '@/views/Functional';
+import VSlot from '@/views/VSlot';
 
 Vue.use(Router);
 
@@ -30,6 +31,10 @@ export default new Router({
             path: '/Functional',
             name: 'functional',
             component: Functional,
+        }, {
+            path: '/VSlot',
+            name: 'vSlot',
+            component: VSlot,
         }, {
             path: '/about',
             name: 'about',
